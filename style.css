@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.nav {
+    background-color: #2f2f2f;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar {
+    height: 90px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.bloom {
+    font-size: 40px;
+    font-family: Dancing Script;
+
+}
+
+.item {
+    display: flex;
+    list-style: none;
+}
+
+.item li a {
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.parent {
+    background-color: #f1f1f1;
+    width: 100%;
+    min-height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.text {
+    width: 40%;
+}
+
+.image {
+
+    width: 50%;
+}
+
+img {
+    height: 250px;
+    width: 100%;
+}
+
+.btn {
+    padding: 2% 4% 2% 4%;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.parentone {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.childone {
+    
+    width: 90%;
+    
+}
+
+.childtwo {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.childthree {
+    width: 300px;
+}
+
+.some4 {
+    background-color: #2f2f2f;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.some5 {
+    width: 95%;
+    margin: auto;
+    height: 300px;
+}
+
+.some6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    gap: 5%;
+}
+
+.someitem {
+    width: 30%;
+}
+
+.all {
+    display: flex;
+    gap: 5%;
+    margin: 5px 0;
+    
+}
+
+#facebook {
+    background-color: blue;
+    font-size: 20px;
+}
+
+#twitter {
+    background-color: rgb(12, 137, 200);
+    font-size: 20px;
+}
+
+#rss {
+    background-color: #fa9842;
+    font-size: 20px;
+}
+
+#google {
+    background-color: red;
+    font-size: 20px;
+}
+
+.logo {
+    margin: 5px 0;
+}
+
+.latest>h3 {
+    margin-bottom: 25px;
+}
+
+.about>h3 {
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:685px) {
+    .parent {
+
+        height: auto;
+
+    }
+
+    .child {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .image {
+
+        width: 80%;
+    }
+
+    .text {
+
+        width: 80%;
+    }
+
+    .item {
+        display: none;
+    }
+
+    .parentone {
+        height: auto;
+
+    }
+
+    .childtwo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+
+    .some5 {
+        height: auto;
+    }
+
+    .some6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        
+    }
+
+    .someitem {
+        width: 90%;
+    }
+
+    .latest {
+        margin-top: 30px;
+    }
+}
